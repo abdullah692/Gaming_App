@@ -1,0 +1,109 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-tabs-tab-btn{ 
+ 
+   font-size: 20px;
+   margin-right: 20px;
+   margin-left: 20px;
+   text-align: center;
+ }
+
+ .ant-tabs-tab-btn:hover{ 
+ color:white
+}
+
+ .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  
+  color:   white;
+  /* border-bottom: 2px solid purple; */
+  font-size: 20px;
+  text-align: center;
+  
+
+} 
+ .ant-tabs-top >.ant-tabs-nav .ant-tabs-ink-bar {
+  background-color: purple;
+  height: 3px;
+}
+input[type='radio']::after {
+  accent-color: transparent;
+}
+
+.ant-layout-sider > .ant-layout-sider-dark
+{
+  display:block;
+  width: 0px;
+}
+.swiper-pagination {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.swiper 
+{
+  height: 160px  !important;
+}
+
+.swiper-pagination-bullet-active {
+  color: red;
+}
+
+
+.swiper-pagination-bullet
+{
+  background-color: rgb(112, 28, 112) !important;
+  border-color: white !important;
+}
+
+.swiper-pagination-bullet .swiper-pagination-bullet-active
+{
+  border-color: white !important;
+}
+
+.ant-drawer-body{
+  
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.ant-modal-content{
+  background-color: #141627 !important;
+  border: 1px solid #CC00FF !important;
+  
+}
+.ant-modal-close-x
+{
+  color: white !important;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ant-notification-center {
+  left: 50%;
+  bottom: 50% !important;
+  margin-right: 30%;
+  transform: translate(-50%, -50%);
+}
+ /* .ant-layout-sider {
+  box-shadow: none;
+}  */
